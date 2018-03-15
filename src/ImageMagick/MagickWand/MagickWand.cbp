@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MagickWand" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../bin/Debug/MagickWand" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add directory="../bin/Debug" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="../bin/Release/MagickWand" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add directory="../bin/Release" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="../ImageMagick" />
+		</Compiler>
+		<Linker>
+			<Add library="MagickCore" />
+		</Linker>
+		<Unit filename="../ImageMagick/MagickWand/animate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../ImageMagick/MagickWand/compare.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../ImageMagick/MagickWand/composite.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../ImageMagick/MagickWand/conjure.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../ImageMagick/MagickWand/convert.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../ImageMagick/MagickWand/deprecate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../ImageMagick/MagickWand/display.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../ImageMagick/MagickWand/drawing-wand.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../ImageMagick/MagickWand/identify.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../ImageMagick/MagickWand/import.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../ImageMagick/MagickWand/magick-cli.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../ImageMagick/MagickWand/magick-image.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../ImageMagick/MagickWand/magick-property.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../ImageMagick/MagickWand/magick-wand.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../ImageMagick/MagickWand/mogrify.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../ImageMagick/MagickWand/montage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../ImageMagick/MagickWand/operation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../ImageMagick/MagickWand/pixel-iterator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../ImageMagick/MagickWand/pixel-wand.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../ImageMagick/MagickWand/script-token.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../ImageMagick/MagickWand/stream.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../ImageMagick/MagickWand/wand-view.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../ImageMagick/MagickWand/wand.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../ImageMagick/MagickWand/wandcli.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

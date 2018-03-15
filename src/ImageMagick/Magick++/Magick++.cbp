@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Magick++" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../bin/Debug/Magick++" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add directory="../bin/Debug" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="../bin/Release/Magick++" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add directory="../bin/Release" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="../ImageMagick" />
+			<Add directory="../ImageMagick/Magick++/lib" />
+		</Compiler>
+		<Linker>
+			<Add library="MagicCore" />
+		</Linker>
+		<Unit filename="../ImageMagick/Magick++/lib/Blob.cpp" />
+		<Unit filename="../ImageMagick/Magick++/lib/BlobRef.cpp" />
+		<Unit filename="../ImageMagick/Magick++/lib/CoderInfo.cpp" />
+		<Unit filename="../ImageMagick/Magick++/lib/Color.cpp" />
+		<Unit filename="../ImageMagick/Magick++/lib/Drawable.cpp" />
+		<Unit filename="../ImageMagick/Magick++/lib/Exception.cpp" />
+		<Unit filename="../ImageMagick/Magick++/lib/Functions.cpp" />
+		<Unit filename="../ImageMagick/Magick++/lib/Geometry.cpp" />
+		<Unit filename="../ImageMagick/Magick++/lib/Image.cpp" />
+		<Unit filename="../ImageMagick/Magick++/lib/ImageRef.cpp" />
+		<Unit filename="../ImageMagick/Magick++/lib/Montage.cpp" />
+		<Unit filename="../ImageMagick/Magick++/lib/Options.cpp" />
+		<Unit filename="../ImageMagick/Magick++/lib/Pixels.cpp" />
+		<Unit filename="../ImageMagick/Magick++/lib/ResourceLimits.cpp" />
+		<Unit filename="../ImageMagick/Magick++/lib/STL.cpp" />
+		<Unit filename="../ImageMagick/Magick++/lib/SecurityPolicy.cpp" />
+		<Unit filename="../ImageMagick/Magick++/lib/Statistic.cpp" />
+		<Unit filename="../ImageMagick/Magick++/lib/Thread.cpp" />
+		<Unit filename="../ImageMagick/Magick++/lib/TypeMetric.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

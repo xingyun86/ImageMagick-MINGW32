@@ -1,0 +1,2 @@
+根据README中地址下载ImageMagick的最新Release代码，直接解压到该目录即可。
+不要覆盖已有的文件。
